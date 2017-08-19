@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+update salary
+SET sex= CASE sex WHEN 'f' THEN 'm' ELSE 'f' END;
+
+/*学的数据库都还给老师了，呵呵*/
