@@ -5,7 +5,7 @@
         while(!q.empty()) {     // 当有内容的时候
             long temp=0;
             int s=q.size();
-            for(int i=0;i<s;i++) {      //树的内容，还没学数据结构，要努力呀
+            for(int i=0;i<s;i++) {      //把当前的层级的加一下
                 TreeNode* t=q.front();
                 q.pop();
                 if(t->left) q.push(t->left);
